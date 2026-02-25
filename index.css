@@ -1,3 +1,10 @@
+@media screen and (min-width: 600px) {
+  /* CSS styles applied when the viewport width is 600px or more */
+  body {
+    background-color: lightblue;
+  }
+}
+
 .container {
   max-width: 900px;
   margin: 30px auto;
