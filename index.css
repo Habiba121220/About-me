@@ -1,7 +1,19 @@
-@media screen and (min-width: 600px) {
-  /* CSS styles applied when the viewport width is 600px or more */
+/* Default styles for mobile phones (up to 768px) */
+body {
+  font-size: 14px;
+}
+
+/* Styles for tablets and laptops (768px and up) */
+@media (min-width: 768px) {
   body {
-    background-color: lightblue;
+    font-size: 16px;
+  }
+}
+
+/* Styles for desktops (1024px and up) */
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
   }
 }
 
